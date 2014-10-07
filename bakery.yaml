@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [Trochut-Regular.ttf.ttx, Trochut-Bold.ttf.ttx, Trochut-Italic.ttf.ttx,
+  src/Trochut-Regular.otf.ttx, src/Trochut-Italic.otf.ttx, src/Trochut-Bold.otf.ttx,
+  src/Trochut-Italic-TTF.sfd, src/Trochut-Bold-TTF.sfd, src/Trochut-Regular-TTF.sfd]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
